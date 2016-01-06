@@ -1,0 +1,1175 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.5" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <NonVisualComponents>
+    <Component class="javax.swing.JLabel" name="jLabel1">
+      <Properties>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/resources/images/gear.jpg"/>
+        </Property>
+        <Property name="labelFor" type="java.awt.Component" editor="org.netbeans.modules.form.ComponentChooserEditor">
+          <ComponentRef name="Form"/>
+        </Property>
+      </Properties>
+      <AccessibilityProperties>
+        <Property name="AccessibleContext.accessibleParent" type="javax.accessibility.Accessible" editor="org.netbeans.modules.form.ComponentChooserEditor">
+          <ComponentRef name="Form"/>
+        </Property>
+      </AccessibilityProperties>
+    </Component>
+  </NonVisualComponents>
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="2"/>
+    <Property name="title" type="java.lang.String" value="Summarization Module"/>
+    <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+      <Dimension value="[1055, 720]"/>
+    </Property>
+    <Property name="resizable" type="boolean" value="false"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="2"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="Tabmodules" min="-2" pref="894" max="-2" attributes="0"/>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="Buttonexit" min="-2" pref="119" max="-2" attributes="0"/>
+                  <Component id="Buttonsettings" alignment="0" min="-2" pref="119" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace max="32767" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
+                      <Component id="Buttonsettings" min="-2" pref="40" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="459" max="-2" attributes="0"/>
+                      <Component id="Buttonexit" min="-2" pref="45" max="-2" attributes="0"/>
+                  </Group>
+                  <Component id="Tabmodules" min="-2" pref="564" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="37" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JTabbedPane" name="Tabmodules">
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout"/>
+      <SubComponents>
+        <Container class="javax.swing.JPanel" name="Moduleclusteringfaculty">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="Clustering Tab">
+                <Property name="tabTitle" type="java.lang.String" value="Clustering Tab"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                      <Group type="102" attributes="0">
+                                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                              <Component id="cfPanelcourse" max="32767" attributes="0"/>
+                                              <Component id="cfPanelprof" max="32767" attributes="0"/>
+                                          </Group>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Component id="cfPanelactivities" max="32767" attributes="0"/>
+                                      </Group>
+                                      <Component id="cfPanellog" alignment="1" min="-2" pref="425" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace min="-2" pref="42" max="-2" attributes="0"/>
+                                      <Component id="Buttonallfacultycluster" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="48" max="-2" attributes="0"/>
+                                      <Component id="cfButton" min="-2" pref="205" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="155" max="-2" attributes="0"/>
+                              <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="jSeparator2" min="-2" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <EmptySpace min="-2" pref="207" max="-2" attributes="0"/>
+                              <Component id="jLabel5" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="66" max="-2" attributes="0"/>
+                              <Component id="Buttonallstudentcluster" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="37" max="-2" attributes="0"/>
+                              <Component id="csButton" min="-2" pref="205" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                  <Component id="csPanelcourse" max="32767" attributes="0"/>
+                                  <Component id="csPanellog" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="csPanelactivity" alignment="0" max="32767" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <EmptySpace pref="59" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jSeparator2" alignment="0" max="32767" attributes="0"/>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <EmptySpace min="-2" pref="25" max="-2" attributes="0"/>
+                              <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="24" max="-2" attributes="0"/>
+                              <Component id="jLabel5" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace type="unrelated" min="-2" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Component id="cfPanelcourse" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="cfPanelprof" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Component id="cfPanelactivities" max="32767" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" max="-2" attributes="0"/>
+                      <Component id="cfPanellog" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="cfButton" alignment="3" min="-2" pref="48" max="-2" attributes="0"/>
+                          <Component id="Buttonallfacultycluster" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="94" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace min="-2" pref="68" max="-2" attributes="0"/>
+                      <Component id="csPanelcourse" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="csPanelactivity" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="csPanellog" max="32767" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="csButton" alignment="3" min="-2" pref="48" max="-2" attributes="0"/>
+                          <Component id="Buttonallstudentcluster" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="96" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Container class="javax.swing.JPanel" name="cfPanelcourse">
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_AddingCodePost" type="java.lang.String" value="cfPanelcourse.setBorder(BorderFactory.createTitledBorder(&quot;Course&quot;));"/>
+              </AuxValues>
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="cfCBcoursename" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace pref="71" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="1" attributes="0">
+                          <EmptySpace pref="29" max="32767" attributes="0"/>
+                          <Component id="cfCBcoursename" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Component class="javax.swing.JCheckBox" name="cfCBcoursename">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Course Name"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Container class="javax.swing.JPanel" name="cfPanelprof">
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_AddingCodePost" type="java.lang.String" value="cfPanelprof.setBorder(BorderFactory.createTitledBorder(&quot;Professor&quot;));"/>
+              </AuxValues>
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="cfCBprofname" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace pref="59" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="cfCBprofname" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Component class="javax.swing.JCheckBox" name="cfCBprofname">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Professor Name"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Container class="javax.swing.JPanel" name="cfPanellog">
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_AddingCodePost" type="java.lang.String" value="cfPanellog.setBorder(BorderFactory.createTitledBorder(&quot;Logs&quot;));"/>
+              </AuxValues>
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" attributes="0">
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="cfCBweek1" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="cfCBweek2" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="cfCBweek3" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="cfCBweek4" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace min="-2" pref="33" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="cfCBweek5" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="cfCBweek6" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="cfCBweek7" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="cfCBweek8" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace min="-2" pref="44" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="cfCBweek12" max="32767" attributes="0"/>
+                                      <Component id="cfCBweek11" min="-2" max="-2" attributes="0"/>
+                                      <Component id="cfCBweek10" min="-2" max="-2" attributes="0"/>
+                                      <Component id="cfCBweek9" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace min="-2" pref="79" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="cfCBtotal" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="32767" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="cfCBweek1" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="cfCBweek5" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="cfCBweek9" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="cfCBweek2" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="cfCBweek6" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="cfCBweek10" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="cfCBweek3" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="cfCBweek7" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="cfCBweek11" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="cfCBweek4" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="cfCBweek8" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="cfCBweek12" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Component id="cfCBtotal" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace pref="56" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Component class="javax.swing.JCheckBox" name="cfCBweek1">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="First Week"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JCheckBox" name="cfCBweek2">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Second Week"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JCheckBox" name="cfCBweek3">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Third Week"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JCheckBox" name="cfCBweek4">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Fourth Week"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JCheckBox" name="cfCBweek12">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Twelfth Week"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JCheckBox" name="cfCBweek5">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Fifth Week"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JCheckBox" name="cfCBweek6">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Sixth Week"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JCheckBox" name="cfCBweek7">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Seventh Week"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JCheckBox" name="cfCBweek8">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Eight Week"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JCheckBox" name="cfCBweek10">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Tenth Week"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JCheckBox" name="cfCBweek11">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Eleventh Week"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JCheckBox" name="cfCBweek9">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Ninth Week"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JCheckBox" name="cfCBtotal">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Total Logs"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Component class="javax.swing.JSeparator" name="jSeparator2">
+              <Properties>
+                <Property name="orientation" type="int" value="1"/>
+                <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                  <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
+                    <LineBorder/>
+                  </Border>
+                </Property>
+              </Properties>
+            </Component>
+            <Container class="javax.swing.JPanel" name="cfPanelactivities">
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_AddingCodePost" type="java.lang.String" value="cfPanelactivities.setBorder(BorderFactory.createTitledBorder(&quot;Course Acivities&quot;));"/>
+              </AuxValues>
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="cfCBforum" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="cfCBassign" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="cfCBquiz" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="cfCBlabel" min="-2" max="-2" attributes="0"/>
+                                      <Component id="cfCBfile" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                          <EmptySpace max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="cfCBassign" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="cfCBfile" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="cfCBquiz" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="cfCBlabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Component id="cfCBforum" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Component class="javax.swing.JCheckBox" name="cfCBassign">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Assignment"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JCheckBox" name="cfCBquiz">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Quiz"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JCheckBox" name="cfCBforum">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Forum"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JCheckBox" name="cfCBfile">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Files"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JCheckBox" name="cfCBlabel">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Label"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Component class="javax.swing.JButton" name="cfButton">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Generate Clustering Table"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="cfButtonActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="Buttonallfacultycluster">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Select All"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="ButtonallfacultyclusterActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel2">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="24" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Faculty"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel5">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="24" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Student"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JButton" name="csButton">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Generate Clustering Table"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="csButtonActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="Buttonallstudentcluster">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Select All"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="ButtonallstudentclusterActionPerformed"/>
+              </Events>
+            </Component>
+            <Container class="javax.swing.JPanel" name="csPanelcourse">
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_AddingCodePost" type="java.lang.String" value="csPanelcourse.setBorder(BorderFactory.createTitledBorder(&quot;Student Info&quot;));"/>
+              </AuxValues>
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="cscbid" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Component id="cscbstudentid" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Component id="cscbcourse" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="cscbid" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="cscbstudentid" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="cscbcourse" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Component class="javax.swing.JCheckBox" name="cscbid">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="ID"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JCheckBox" name="cscbstudentid">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="StudentID"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JCheckBox" name="cscbcourse">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Course"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Container class="javax.swing.JPanel" name="csPanelactivity">
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_AddingCodePost" type="java.lang.String" value="csPanelactivity.setBorder(BorderFactory.createTitledBorder(&quot;Student Activity&quot;));"/>
+              </AuxValues>
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="cscbassignfaculty" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="cscbassignsubmit" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="cscbassignratio" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="cscbassignview" alignment="0" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="cscbquizattempt" min="-2" max="-2" attributes="0"/>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="cscbquizanswer" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="cscbquizfaculty" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="cscbquizratio" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="cscbquizreview" alignment="0" min="-2" pref="99" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="cscbresource" max="32767" attributes="0"/>
+                                      <Component id="cscbforumratio" min="-2" max="-2" attributes="0"/>
+                                      <Component id="cscbforumfaculty" min="-2" max="-2" attributes="0"/>
+                                      <Component id="cscbforumpost" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                          <EmptySpace min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="cscbassignsubmit" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="cscbquizanswer" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="cscbforumpost" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="cscbassignfaculty" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="cscbquizfaculty" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="cscbforumfaculty" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="cscbassignratio" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="cscbquizratio" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="cscbforumratio" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="cscbquizreview" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="cscbresource" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="cscbassignview" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="cscbquizattempt" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Component class="javax.swing.JCheckBox" name="cscbassignsubmit">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Assignment Submitted"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JCheckBox" name="cscbassignratio">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Assignment Ratio"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JCheckBox" name="cscbassignfaculty">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Assignment by Faculty"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JCheckBox" name="cscbquizanswer">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Quiz Answered "/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JCheckBox" name="cscbquizfaculty">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Quiz by Faculty"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JCheckBox" name="cscbquizratio">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Quiz Ratio"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JCheckBox" name="cscbquizreview">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Quiz Review"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JCheckBox" name="cscbquizattempt">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Quiz Attempt"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JCheckBox" name="cscbforumpost">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Forum Post"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JCheckBox" name="cscbforumfaculty">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Forum by Faculty"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JCheckBox" name="cscbforumratio">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Forum Ratio"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JCheckBox" name="cscbresource">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Resources"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JCheckBox" name="cscbassignview">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Assignment View"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Container class="javax.swing.JPanel" name="csPanellog">
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_AddingCodePost" type="java.lang.String" value="csPanellog.setBorder(BorderFactory.createTitledBorder(&quot;Student Logs&quot;));"/>
+              </AuxValues>
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="cscbwk1" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="cscbwk4" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="cscbwk7" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="cscbwk10" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="cscbwk2" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="cscbwk5" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="cscbwk8" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="cscbwk11" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="cscbwk3" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="cscbwk6" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="cscbwk9" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="cscbwk12" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Component id="cscbtotal" alignment="0" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="cscbwk1" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="cscbwk4" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="cscbwk7" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="cscbwk10" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="cscbwk2" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="cscbwk5" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="cscbwk8" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="cscbwk11" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="cscbwk3" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="cscbwk6" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="cscbwk9" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="cscbwk12" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="cscbtotal" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Component class="javax.swing.JCheckBox" name="cscbwk1">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Week 1"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JCheckBox" name="cscbwk4">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Week 4"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JCheckBox" name="cscbwk7">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Week 7"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JCheckBox" name="cscbwk2">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Week 2"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JCheckBox" name="cscbwk3">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Week 3"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JCheckBox" name="cscbtotal">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Total Logs"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JCheckBox" name="cscbwk5">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Week 5"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JCheckBox" name="cscbwk6">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Week 6"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JCheckBox" name="cscbwk8">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Week 8"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JCheckBox" name="cscbwk9">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Week 9"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JCheckBox" name="cscbwk12">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Week 12"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JCheckBox" name="cscbwk10">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Week 10"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JCheckBox" name="cscbwk11">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Week 11"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="jPanel1">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="Association Tab">
+                <Property name="tabTitle" type="java.lang.String" value="Association Tab"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="-2" pref="356" max="-2" attributes="0"/>
+                      <Component id="jLabel3" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Component id="Buttonallassociate" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="55" max="-2" attributes="0"/>
+                              <Component id="associationButton" min="-2" pref="205" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="jPanel2" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="73" max="-2" attributes="0"/>
+                              <Component id="jPanel3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace pref="78" max="32767" attributes="0"/>
+                      <Component id="jPanel4" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="44" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jLabel3" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="29" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="jPanel2" max="32767" attributes="0"/>
+                          <Component id="jPanel4" alignment="1" max="32767" attributes="0"/>
+                          <Component id="jPanel3" alignment="1" max="32767" attributes="0"/>
+                      </Group>
+                      <EmptySpace pref="143" max="32767" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="associationButton" alignment="3" min="-2" pref="48" max="-2" attributes="0"/>
+                          <Component id="Buttonallassociate" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JButton" name="associationButton">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Generate Association Table"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="associationButtonActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="Buttonallassociate">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Select All"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="ButtonallassociateActionPerformed"/>
+              </Events>
+            </Component>
+            <Container class="javax.swing.JPanel" name="jPanel2">
+              <Properties>
+                <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                  <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+                    <TitledBorder title="Show Courses"/>
+                  </Border>
+                </Property>
+                <Property name="name" type="java.lang.String" value="Show Courses" noResource="true"/>
+              </Properties>
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="cbassocourse" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace pref="94" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="cbassocourse" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Component class="javax.swing.JCheckBox" name="cbassocourse">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Tahoma" size="14" style="0"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Courses"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="cbassocourseActionPerformed"/>
+                  </Events>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Container class="javax.swing.JPanel" name="jPanel3">
+              <Properties>
+                <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                  <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+                    <TitledBorder title="Activity on the following"/>
+                  </Border>
+                </Property>
+                <Property name="name" type="java.lang.String" value="Show Courses" noResource="true"/>
+              </Properties>
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="cbassoquiz" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="cbassoassign" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="cbassoforum" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="cbassoreso" alignment="0" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace pref="150" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="cbassoquiz" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Component id="cbassoassign" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Component id="cbassoforum" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Component id="cbassoreso" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace pref="72" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Component class="javax.swing.JCheckBox" name="cbassoquiz">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Tahoma" size="14" style="0"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Quiz"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JCheckBox" name="cbassoassign">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Tahoma" size="14" style="0"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Assignment"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JCheckBox" name="cbassoforum">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Tahoma" size="14" style="0"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Forum"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JCheckBox" name="cbassoreso">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Tahoma" size="14" style="0"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Resource"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Container class="javax.swing.JPanel" name="jPanel4">
+              <Properties>
+                <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                  <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+                    <TitledBorder title="Frequency"/>
+                  </Border>
+                </Property>
+                <Property name="name" type="java.lang.String" value="Show Courses" noResource="true"/>
+              </Properties>
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="cbassocourseview" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="cbassolog" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="cbassoactivity" alignment="0" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace pref="84" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="cbassocourseview" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Component id="cbassolog" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Component id="cbassoactivity" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Component class="javax.swing.JCheckBox" name="cbassocourseview">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Tahoma" size="14" style="0"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Course View"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JCheckBox" name="cbassolog">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Tahoma" size="14" style="0"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Total Logs"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JCheckBox" name="cbassoactivity">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Tahoma" size="14" style="0"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="MOODLE Activity"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Component class="javax.swing.JLabel" name="jLabel3">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="18" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Student"/>
+                <Property name="toolTipText" type="java.lang.String" value=""/>
+                <Property name="opaque" type="boolean" value="true"/>
+              </Properties>
+              <AccessibilityProperties>
+                <Property name="AccessibleContext.accessibleName" type="java.lang.String" value=""/>
+              </AccessibilityProperties>
+            </Component>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JButton" name="Buttonexit">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Exit Tool"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="ButtonexitActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="Buttonsettings">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="DB CONNECT"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="ButtonsettingsActionPerformed"/>
+      </Events>
+    </Component>
+  </SubComponents>
+</Form>
